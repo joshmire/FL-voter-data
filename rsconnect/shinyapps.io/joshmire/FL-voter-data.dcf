@@ -1,0 +1,13 @@
+name: FL-voter-data
+title: FL-voter-data
+username:
+account: joshmire
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5185395
+bundleId: 5282841
+url: https://joshmire.shinyapps.io/FL-voter-data/
+when: 1637633982.86528
+lastSyncTime: 1637633982.86528
+asMultiple: FALSE
+asStatic: FALSE

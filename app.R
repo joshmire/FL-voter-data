@@ -1,5 +1,3 @@
-setwd("~/FL-voter-map")
-
 library(dplyr)
 library(shiny)
 library(shinyWidgets)
