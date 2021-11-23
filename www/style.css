@@ -1,0 +1,78 @@
+#title {
+
+}
+
+#name {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+#desc {
+  
+}
+
+hr {
+  border-top: 1px solid #000000;
+}
+
+#buttons {
+  
+}
+
+#clear {
+  padding-bottom: 5px;
+}
+
+#downloads {
+  text-align: right;
+}
+
+#mainpanel {
+  height: calc(100vh - 80px) !important;
+}
+
+#source {
+
+}
+
+#source p {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+#source a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+#update {
+
+}
+
+#update p {
+  font-weight: bold;
+  padding-right: 15px;
+  text-align: right;
+}
+
+#signature {
+
+}
+
+#signature p {
+  text-align: center;
+}
+
+#signature a {
+  text-decoration: none;
+}
+
+#signature img {
+  vertical-align: text-bottom;
+  width: 25px;
+  height: 25px;
+}

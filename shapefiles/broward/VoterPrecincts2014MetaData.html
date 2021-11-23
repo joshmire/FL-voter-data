@@ -1,0 +1,1803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:res="http://www.esri.com/metadata/res/" xmlns:gmd="http://www.isotc211.org/2005/gmd">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css" id="internalStyle" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+    body {
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #000020;
+      background-color: #FFFFFF;
+    }
+    div.itemDescription {
+      margin-right: 2em;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    h1.idHeading {
+      color: #008FAF;
+      text-align: center;
+    }
+    h1.gpHeading {
+      color: black;
+    }
+    span.idHeading {
+      color: #007799;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    img {
+      width: 210px;
+      border-width: 1px;
+      border-style: outset;
+    }
+    img.center {
+      text-align: center;
+      display: block;
+      border-color: #666666;
+    }
+    img.enclosed {
+      width: 60%;
+    }
+    img.gp {
+      width: auto;
+      border-style: none;
+      margin-top: -1.2em;
+    }
+    .noThumbnail {
+      color: #888888;
+      font-size: 1.2em;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 3em 3em;
+      position: relative;
+      text-align: center;
+      width: 210px;
+      height: 140px;
+    }
+    .noContent {
+      color: #888888;
+    }
+    .itemInfo p {
+      margin-top: -0.1em;
+    }
+    .itemInfo img {
+      width: auto;
+      border: none;
+    }
+    .gpItemInfo p {
+      margin-top: -1.2em;
+    }
+    div.box {
+      margin-left: 1em;
+    }
+    div.hide {
+      display: none;
+    }
+    div.show {
+      display: block;
+    }
+    span.hide {
+      display: none;
+    }
+    span.show {
+      display: inline-block;
+    }
+    .backToTop a {
+      color: #DDDDDD;
+      font-style: italic;
+      font-size: 0.85em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h2.gp {
+      color: #00709C;
+    }
+    .gpsubtitle {
+      color: black;
+      font-size: 1.2em;
+	  font-weight: normal;
+    }
+    .gptags {
+      color: black;
+      font-size: 0.8em;
+	  font-weight: normal;
+    }
+    .head {
+      font-size: 1.3em;
+    }
+    a:link {
+      color: #098EA6;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #098EA6;
+      text-decoration: none;
+    }
+    a:link:hover, a:visited:hover {
+      color: #007799;
+      background-color: #C6E6EF;
+    }
+    h2.iso a {
+      color: #007799;
+      font-weight: bold;
+    }
+    .iso a:link {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:visited {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:link:hover, .iso a:visited:hover {
+      color: #006688;
+      background-color: #C6E6EF;
+    }
+    h2.fgdc a {
+      color: #888888;
+      font-weight: bold;
+    }
+    .fgdc a:link {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:visited {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:link:hover, .fgdc a:visited:hover {
+      color: #777777;
+      background-color: #C6E6EF;
+    }
+	h3 {
+		font-size: 1em; 
+		color: #00709C;
+	}
+    .backToTop {
+      color: #AAAAAA;
+      margin-left: 1em;
+    }
+    p.gp {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    ul ul {
+      list-style-type: square;
+    }
+    ul li.iso19139heading {
+      margin-left: -3em;
+	  list-style: none;
+	  font-weight: bold;
+      color: #666666;
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dl.iso {
+      background-color: #F2F9FF;
+    }
+    dl.esri {
+      background-color: #F2FFF9;
+    }
+    dl.subtype {
+      width: 40em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+    dt {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dt {
+      width: 60%;
+      float: left;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dt.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    dd {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dd {
+      float: left;
+      width: 25%;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dd.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    .isoElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .esriElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .element {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #666666;
+    }
+    unknownElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #333333;
+    }
+    .sync {
+      color: #006400;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .syncOld {
+      color: #888888;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .textOld {
+      color: #999999;
+    }
+    .code {
+      font-family: monospace;
+    }
+    pre.wrap {
+      width: 96%;
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 1em;
+      margin: 0 0 1em 0.6em;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre.gp {
+      font-family: Courier New, Courier, monospace;
+      line-height: 1.2em;
+    }
+    .gpcode {
+      margin-left:15px;
+      border: 1px dashed #ACC6D8;
+      padding: 10px;
+      background-color:#EEEEEE;
+      height: auto;
+      overflow: scroll; 
+      width: 96%;
+    }
+    tr {
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      background: #dddddd;
+      vertical-align: bottom;
+      font-size: 0.8em;
+    }
+    td {
+      background: #EEEEEE;
+      color: black;
+      vertical-align: top;
+      font-size: 0.8em;
+    }
+    td.description {
+      background: white;
+    }
+  </style>
+    <script type="text/javascript" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+	/*  */
+		function hideShow(divID) {
+			var item = document.getElementById(divID);
+			var itemShow = document.getElementById(divID + 'Show');
+			var itemHide = document.getElementById(divID + 'Hide');
+			if (item) {
+				if (item.className == 'hide') {
+					item.className='show';
+					itemShow.className='hide';
+					itemHide.className='show';
+				}
+				else {
+					item.className='hide';
+					itemShow.className='show';
+					itemHide.className='hide';
+				}
+			}
+		}
+	/*  */
+	</script>
+  </head>
+  <body oncontextmenu="return true">
+    <div class="itemDescription" id="overview" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <h1 class="idHeading">VoterPrecincts2014</h1>
+      <p class="center">
+        <span class="idHeading">Shapefile</span>
+      </p>
+      <div class="center">
+        <div class="noThumbnail">Thumbnail Not Available</div>
+      </div>
+      <p class="center">
+        <span class="idHeading">Tags</span>
+        <br />voter precincts</p>
+      <br />
+      <div class="itemInfo">
+        <span class="idHeading">Summary</span>
+        <p>
+          <p>2014 Voter Precincts.</p>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Description</span>
+        <p>
+          <DIV STYLE="text-align:Left;">
+            <DIV>
+              <DIV>
+                <P>
+                  <SPAN>2014 Voter Precinct created Nov-Dec 2013. Precincts data recieved from SOE; Ed Solomon. Precinct labels alpha-numeric except for non-population areas which are labeled 998. The ID 998 is the SOE designation for no precinct.</SPAN>
+                </P>
+              </DIV>
+            </DIV>
+          </DIV>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Credits</span>
+        <p>
+          <p>SOE Ed Solomon, 954-770-4111</p>
+        </p>
+      </div>
+      <div class="itemInfo">
+        <span class="idHeading">Use limitations</span>
+        <p>
+          <span class="noContent">There are no access and use limitations for this item.</span>
+        </p>
+      </div>
+      <p>
+        <span class="idHeading">Extent</span>
+        <br />
+        <dl>
+          <dt>
+            <table cols="4" width="auto" border="0">
+              <col align="left" />
+              <col align="right" />
+              <col align="left" />
+              <col align="right" />
+              <tr>
+                <td class="description">
+                  <span class="idHeading">West</span> </td>
+                <td class="description">-80.450608</td>
+                <td class="description">   <span class="idHeading">East</span> </td>
+                <td class="description">-80.071776</td>
+              </tr>
+              <tr>
+                <td class="description">
+                  <span class="idHeading">North</span> </td>
+                <td class="description">26.355962</td>
+                <td class="description">   <span class="idHeading">South</span> </td>
+                <td class="description">25.954990</td>
+              </tr>
+            </table>
+          </dt>
+        </dl>
+      </p>
+      <p>
+        <div>
+          <span class="idHeading">Scale Range</span>
+        </div>
+        <dl>
+          <dt>
+            <table cols="2" width="auto" border="0">
+              <col align="left" />
+              <col align="left" />
+              <tr>
+                <td class="description">
+                  <span class="idHeading">Maximum (zoomed in)</span> </td>
+                <td class="description">1:5,000</td>
+              </tr>
+              <tr>
+                <td class="description">
+                  <span class="idHeading">Minimum (zoomed out)</span> </td>
+                <td class="description">1:150,000,000</td>
+              </tr>
+            </table>
+          </dt>
+        </dl>
+      </p>
+    </div>
+    <h2 class="iso head">
+      <a href="#arcgisMetadata" onclick="hideShow('arcgisMetadata')" title="Content created and managed in the Description tab">ArcGIS Metadata <span id="arcgisMetadataShow" class="hide">▼</span><span id="arcgisMetadataHide" class="show">►</span></a>
+    </h2>
+    <div class="show" id="arcgisMetadata" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="box arcgis">
+        <div>
+          <a name="TopArcGIS" id="TopArcGIS" />
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('true')" href="#true">Topics and Keywords 
+				<span id="trueShow" class="hide">▼</span><span id="trueHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="true">
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Content type</span> 
+				Downloadable Data</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Theme keywords</span> 
+	    voter precincts</dt>
+          <dl>
+            <dd>
+              <br />
+            </dd>
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('true')" href="#true">Hide Topics and Keywords ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0ENHA')" href="#ID0ENHA">Citation 
+			<span id="ID0ENHAShow" class="hide">▼</span><span id="ID0ENHAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0ENHA">
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Title</span> VoterPrecincts2014</dt>
+          <dt>
+            <span class="esriElement">Publication date</span> 2014-02-24 00:00:00</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Presentation formats</span> 
+	    digital map</dt>
+          <dt>
+            <span class="esriElement">FGDC geospatial presentation format</span> 
+	    vector digital data</dt>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0ENHA')" href="#ID0ENHA">Hide Citation ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EANHA')" href="#ID0EANHA">Citation Contacts 
+				<span id="ID0EANHAShow" class="hide">▼</span><span id="ID0EANHAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EANHA">
+          <dt>
+            <span class="esriElement">Responsible party</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Individual's name</span> Ed Solomon</dt>
+            <dt>
+              <span class="esriElement">Organization's name</span> SOE</dt>
+            <dt>
+              <span class="esriElement">Contact's role</span> 
+			originator</dt>
+            <br />
+            <br />
+            <dl>
+              <a onclick="hideShow('ID0EAANHA')" href="#ID0EAANHA">
+                <dt>
+                  <span class="esriElement">Contact information</span> 
+<span id="ID0EAANHAShow" class="hide">▼</span><span id="ID0EAANHAHide" class="show">►</span></dt>
+              </a>
+              <div class="show" id="ID0EAANHA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Phone</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Voice</span> 9427121910</dt>
+                  </dl>
+                  <br />
+                  <dt>
+                    <span class="esriElement">Address</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Type</span> postal</dt>
+                    <dt>
+                      <span class="esriElement">Delivery point</span> 115 S Andrews</dt>
+                    <dt>
+                      <span class="esriElement">City</span> FTL</dt>
+                    <dt>
+                      <span class="esriElement">Administrative area</span> FL</dt>
+                    <dt>
+                      <span class="esriElement">Postal code</span> 33060</dt>
+                  </dl>
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EAANHA')" href="#ID0EAANHA">Hide Contact information ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+            </dl>
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EANHA')" href="#ID0EANHA">Hide Citation Contacts ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EECGPA')" href="#ID0EECGPA">Resource Details 
+				<span id="ID0EECGPAShow" class="hide">▼</span><span id="ID0EECGPAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EECGPA">
+          <dt>
+            <span class="esriElement">Dataset languages</span> 
+	English (UNITED STATES)
+				</dt>
+          <dt>
+            <span class="esriElement">Dataset character set</span> 
+	    utf8 - 8 bit UCS Transfer Format</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Status</span> 
+	    completed</dt>
+          <dt>
+            <span class="esriElement">Spatial representation type</span> 
+	    vector</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Processing environment</span> Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Credits</span>
+          </dt>
+          <dl>
+            <dd>
+              <pre class="wrap">SOE Ed Solomon, 954-770-4111</pre>
+            </dd>
+          </dl>
+          <dt>
+            <span class="esriElement">ArcGIS item properties</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Name</span> VoterPrecincts2014</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Size</span> 1.585</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Location</span> file://\\D7YFW1R1\C$\GIS\SOE_Data\Jan2014Data\VoterPrecincts2014.shp</dt>
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Access protocol</span> Local Area Network</dt>
+            </dl>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EECGPA')" href="#ID0EECGPA">Hide Resource Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EECCGPA')" href="#ID0EECCGPA">Extents 
+				<span id="ID0EECCGPAShow" class="hide">▼</span><span id="ID0EECCGPAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EECCGPA">
+          <dt>
+            <span class="esriElement">Extent</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Description</span>
+            </dt>
+            <dl>
+              <dd>
+                <pre class="wrap">Precincts create by SOE Vendor, Updated in Jan 2014</pre>
+              </dd>
+            </dl>
+            <dt>
+              <span class="esriElement">Geographic extent</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Bounding rectangle</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">West longitude</span> -80.450608</dt>
+                <dt>
+                  <span class="esriElement">East longitude</span> -80.071776</dt>
+                <dt>
+                  <span class="esriElement">South latitude</span> 25.95499</dt>
+                <dt>
+                  <span class="esriElement">North latitude</span> 26.355962</dt>
+              </dl>
+              <br />
+            </dl>
+            <dt>
+              <span class="esriElement">Temporal extent</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Beginning date</span> 2014-02-24 00:00:00</dt>
+              <dt>
+                <span class="esriElement">Ending date</span> 2014-02-24 00:00:00</dt>
+            </dl>
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Extent</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Geographic extent</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Bounding rectangle</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Extent type</span> 
+Extent used for searching</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">West longitude</span> -80.450608</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">East longitude</span> -80.071776</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">North latitude</span> 26.355962</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">South latitude</span> 25.954990</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Extent contains the resource</span> Yes</dt>
+              </dl>
+              <br />
+            </dl>
+          </dl>
+          <dt>
+            <span class="esriElement">Extent in the item's coordinate system</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">West longitude</span> 836682.098292</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">East longitude</span> 960130.406513</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">South latitude</span> 590405.468509</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">North latitude</span> 735455.465810</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Extent contains the resource</span> Yes</dt>
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EECCGPA')" href="#ID0EECCGPA">Hide Extents ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EBHA')" href="#ID0EBHA">Resource Maintenance 
+				<span id="ID0EBHAShow" class="hide">▼</span><span id="ID0EBHAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EBHA">
+          <dt>
+            <span class="esriElement">Resource maintenance</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Update frequency</span> 
+			not planned</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EBHA')" href="#ID0EBHA">Hide Resource Maintenance ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EEBGPA')" href="#ID0EEBGPA">Spatial Reference 
+				<span id="ID0EEBGPAShow" class="hide">▼</span><span id="ID0EEBGPAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EEBGPA">
+          <dt>
+            <span class="esriElement">ArcGIS coordinate system</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Type</span> Projected</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Geographic coordinate reference</span> GCS_North_American_1983_HARN</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Projection</span> NAD_1983_HARN_StatePlane_Florida_East_FIPS_0901_Feet</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Coordinate reference details</span> 
+</dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Projected coordinate system</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Well-known identifier</span> 2881</dt>
+                <dt>
+                  <span class="esriElement">X origin</span> -17791300</dt>
+                <dt>
+                  <span class="esriElement">Y origin</span> -41645400</dt>
+                <dt>
+                  <span class="esriElement">XY scale</span> 137249422.94257641</dt>
+                <dt>
+                  <span class="esriElement">Z origin</span> -100000</dt>
+                <dt>
+                  <span class="esriElement">Z scale</span> 10000</dt>
+                <dt>
+                  <span class="esriElement">M origin</span> -100000</dt>
+                <dt>
+                  <span class="esriElement">M scale</span> 10000</dt>
+                <dt>
+                  <span class="esriElement">XY tolerance</span> 0.0032808333333333331</dt>
+                <dt>
+                  <span class="esriElement">Z tolerance</span> 0.001</dt>
+                <dt>
+                  <span class="esriElement">M tolerance</span> 0.001</dt>
+                <dt>
+                  <span class="esriElement">High precision</span> true</dt>
+                <dt>
+                  <span class="esriElement">Latest well-known identifier</span> 2881</dt>
+                <dt>
+                  <span class="esriElement">Well-known text</span> PROJCS["NAD_1983_HARN_StatePlane_Florida_East_FIPS_0901_Feet",GEOGCS["GCS_North_American_1983_HARN",DATUM["D_North_American_1983_HARN",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",656166.6666666665],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-81.0],PARAMETER["Scale_Factor",0.9999411764705882],PARAMETER["Latitude_Of_Origin",24.33333333333333],UNIT["Foot_US",0.3048006096012192],AUTHORITY["EPSG",2881]]</dt>
+              </dl>
+            </dl>
+          </dl>
+          <br />
+          <dt>
+            <span class="esriElement">Reference system identifier</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Value</span> 2881</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Codespace</span> EPSG</dt>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Version</span> 7.11.2</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EEBGPA')" href="#ID0EEBGPA">Hide Spatial Reference ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAGA')" href="#ID0EAGA">Spatial Data Properties 
+				<span id="ID0EAGAShow" class="hide">▼</span><span id="ID0EAGAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAGA">
+          <a onclick="hideShow('ID0EBAGA')" href="#ID0EBAGA">
+            <dt>
+              <span class="esriElement">Vector</span> 
+<span id="ID0EBAGAShow" class="hide">▼</span><span id="ID0EBAGAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EBAGA">
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Level of topology for this dataset</span> 
+			geometry only</dt>
+              <br />
+              <br />
+              <dt>
+                <span class="esriElement">Geometric objects</span> 
+</dt>
+              <dl>
+                <dt>
+                  <span class="esriElement">Feature class name</span> VoterPrecincts2014</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Object type</span> 
+			composite</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Object count</span> 578</dt>
+              </dl>
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EBAGA')" href="#ID0EBAGA">Hide Vector ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <a onclick="hideShow('ID0EA')" href="#ID0EA">
+            <dt>
+              <span class="esriElement">ArcGIS Feature Class Properties</span> 
+</dt>
+            <span id="ID0EAShow" class="hide">▼</span>
+            <span id="ID0EAHide" class="show">►</span>
+          </a>
+          <div class="show" id="ID0EA">
+            <dl>
+              <dt>
+                <span class="esriElement">Feature class name</span> VoterPrecincts2014</dt>
+              <dl>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Feature type</span> Simple</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Geometry type</span> Polygon</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Has topology</span> FALSE</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Feature count</span> 578</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Spatial index</span> FALSE</dt>
+                <dt>
+                  <span class="sync">*</span> <span class="esriElement">Linear referencing</span> TRUE</dt>
+              </dl>
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EA')" href="#ID0EA">Hide ArcGIS Feature Class Properties ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAGA')" href="#ID0EAGA">Hide Spatial Data Properties ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAGPA')" href="#ID0EAGPA">Geoprocessing history 
+			<span id="ID0EAGPAShow" class="hide">▼</span><span id="ID0EAGPAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAGPA">
+          <dt>
+            <span class="esriElement">Process</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Process name</span> </dt>
+            <dt>
+              <span class="esriElement">Date</span> 2013-12-04 09:17:10</dt>
+            <dt>
+              <span class="esriElement">Tool location</span> c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Analysis Tools.tbx\Erase</dt>
+            <dt>
+              <span class="esriElement">Command issued</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="code">Erase Precincts2013_regions "Precincts2013_holes_polygons selection" C:\Users\tdobbs\Documents\ArcGIS\Default.gdb\Precincts2013_regions_Erase1 #</span>
+              </dt>
+            </dl>
+            <dt>
+              <span class="esriElement">Include in lineage when exporting metadata</span> No</dt>
+            <br />
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Process</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Process name</span> </dt>
+            <dt>
+              <span class="esriElement">Date</span> 2013-12-04 12:16:20</dt>
+            <dt>
+              <span class="esriElement">Tool location</span> c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project</dt>
+            <dt>
+              <span class="esriElement">Command issued</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="code">Project Precincts2013_regions_Erase1 C:\Users\tdobbs\Documents\ArcGIS\Default.gdb\Precincts2013_regions_Erase12 PROJCS['NAD_1983_HARN_StatePlane_Florida_East_FIPS_0901_Feet',GEOGCS['GCS_North_American_1983_HARN',DATUM['D_North_American_1983_HARN',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',656166.6666666665],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-81.0],PARAMETER['Scale_Factor',0.9999411764705882],PARAMETER['Latitude_Of_Origin',24.33333333333333],UNIT['Foot_US',0.3048006096012192]] NAD_1983_To_HARN_Florida GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433],METADATA['North America - NAD83',167.65,14.93,-47.74,86.45,0.0,0.0174532925199433,0.0,1350]]</span>
+              </dt>
+            </dl>
+            <dt>
+              <span class="esriElement">Include in lineage when exporting metadata</span> No</dt>
+            <br />
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Process</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Process name</span> </dt>
+            <dt>
+              <span class="esriElement">Date</span> 2013-12-05 15:41:22</dt>
+            <dt>
+              <span class="esriElement">Tool location</span> c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass</dt>
+            <dt>
+              <span class="esriElement">Command issued</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="code">FeatureClassToFeatureClass C:\GIS\SOE_Data\SOE\SOE_2013.gdb\Precincts2013_regions_Erase12 "Database Connections\SOE.sde" VoterPrecincts # "Precinct "Precinct" true true false 6 Text 0 0 ,First,#,C:\GIS\SOE_Data\SOE\SOE_2013.gdb\Precincts2013_regions_Erase12,Precinct,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\GIS\SOE_Data\SOE\SOE_2013.gdb\Precincts2013_regions_Erase12,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\GIS\SOE_Data\SOE\SOE_2013.gdb\Precincts2013_regions_Erase12,Shape_Area,-1,-1" #</span>
+              </dt>
+            </dl>
+            <dt>
+              <span class="esriElement">Include in lineage when exporting metadata</span> No</dt>
+            <br />
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Process</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Process name</span> </dt>
+            <dt>
+              <span class="esriElement">Date</span> 2014-02-11 12:56:43</dt>
+            <dt>
+              <span class="esriElement">Tool location</span> c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges</dt>
+            <dt>
+              <span class="esriElement">Command issued</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="code">ChangePrivileges 'Database Connections\Direct Connection to sde1p as SOE.sde\SOE.VoterPrecinctsMaster';'Database Connections\Direct Connection to sde1p as SOE.sde\SOE.VoterPrecincts' login_role GRANT #</span>
+              </dt>
+            </dl>
+            <dt>
+              <span class="esriElement">Include in lineage when exporting metadata</span> No</dt>
+            <br />
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Process</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Process name</span> </dt>
+            <dt>
+              <span class="esriElement">Date</span> 2014-02-18 15:16:55</dt>
+            <dt>
+              <span class="esriElement">Tool location</span> c:\program files\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass</dt>
+            <dt>
+              <span class="esriElement">Command issued</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="code">FeatureClassToFeatureClass "Database Connections\SOE.sde\SOE.VoterPrecincts" C:\GIS\SOE_Data\Jan2014Data VoterPrecincts2014.shp # "PRECINCT "Precinct" true true false 6 Text 0 0 ,First,#,Database Connections\SOE.sde\SOE.VoterPrecincts,PRECINCT,-1,-1;SHAPE_AREA "SHAPE_AREA" false false true 0 Double 0 0 ,First,#,Database Connections\SOE.sde\SOE.VoterPrecincts,SHAPE.AREA,-1,-1;SHAPE_LEN "SHAPE_LEN" false false true 0 Double 0 0 ,First,#,Database Connections\SOE.sde\SOE.VoterPrecincts,SHAPE.LEN,-1,-1" #</span>
+              </dt>
+            </dl>
+            <dt>
+              <span class="esriElement">Include in lineage when exporting metadata</span> No</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAGPA')" href="#ID0EAGPA">Hide Geoprocessing history ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EEA')" href="#ID0EEA">Distribution 
+			<span id="ID0EEAShow" class="hide">▼</span><span id="ID0EEAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EEA">
+          <dt>
+            <span class="esriElement">Distribution format</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Name</span> Shapefile</dt>
+            <dt>
+              <span class="esriElement">Version</span> Jab2014</dt>
+            <br />
+            <br />
+          </dl>
+          <dt>
+            <span class="esriElement">Transfer options</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="sync">*</span> <span class="esriElement">Transfer size</span> 1.585</dt>
+            <br />
+            <br />
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EEA')" href="#ID0EEA">Hide Distribution ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EFA')" href="#ID0EFA">Fields 
+			<span id="ID0EFAShow" class="hide">▼</span><span id="ID0EFAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EFA">
+          <a onclick="hideShow('ID0EAFA')" href="#ID0EAFA">
+            <dt>
+              <span class="esriElement">Details for object</span> VoterPrecincts2014 
+					<span id="ID0EAFAShow" class="hide">▼</span><span id="ID0EAFAHide" class="show">►</span></dt>
+          </a>
+          <div class="show" id="ID0EAFA">
+            <dl>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Type</span> Feature Class</dt>
+              <dt>
+                <span class="sync">*</span> <span class="esriElement">Row count</span> 578</dt>
+              <dt>
+                <span class="esriElement">Definition</span>
+              </dt>
+              <dl>
+                <dd>
+                  <pre class="wrap">voting precincts</pre>
+                </dd>
+              </dl>
+              <dt>
+                <span class="esriElement">Definition source</span>
+              </dt>
+              <dl>
+                <dd>
+                  <pre class="wrap">SOE</pre>
+                </dd>
+              </dl>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EEAFA')" href="#ID0EEAFA">
+                <dt>
+                  <span class="esriElement">Field</span> Precinct</dt> 
+		<span id="ID0EEAFAShow" class="hide">▼</span><span id="ID0EEAFAHide" class="show">►</span></a>
+              <div class="show" id="ID0EEAFA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> PRECINCT</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> String</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 6</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="esriElement">Indexed</span> no</dt>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">SOE</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">SOE</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Beginning date of values</span> 2014-01-21</dt>
+                  <dt>
+                    <span class="esriElement">Ending date of values</span> 2014-02-25</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Measurement frequency</span> 
+				not planned</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EEAFA')" href="#ID0EEAFA">Hide Field Precinct ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EDAFA')" href="#ID0EDAFA">
+                <dt>
+                  <span class="esriElement">Field</span> SHAPE_AREA</dt> 
+		<span id="ID0EDAFAShow" class="hide">▼</span><span id="ID0EDAFAHide" class="show">►</span></a>
+              <div class="show" id="ID0EDAFA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> SHAPE_AREA</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Double</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 19</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="esriElement">Indexed</span> no</dt>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Area of feature in internal units squared.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Positive real numbers that are automatically generated.</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Beginning date of values</span> 2014-01-21</dt>
+                  <dt>
+                    <span class="esriElement">Ending date of values</span> 2014-02-25</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Accuracy information</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Accuracy</span> good</dt>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Measurement frequency</span> 
+				not planned</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EDAFA')" href="#ID0EDAFA">Hide Field SHAPE_AREA ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0ECAFA')" href="#ID0ECAFA">
+                <dt>
+                  <span class="esriElement">Field</span> SHAPE_LEN</dt> 
+		<span id="ID0ECAFAShow" class="hide">▼</span><span id="ID0ECAFAHide" class="show">►</span></a>
+              <div class="show" id="ID0ECAFA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> SHAPE_LEN</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Double</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 19</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="esriElement">Indexed</span> no</dt>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">SOE</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">SOE</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Range of values</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Minimum value</span> 50</dt>
+                    <dt>
+                      <span class="esriElement">Maximum value</span> 100</dt>
+                  </dl>
+                  <br />
+                  <dt>
+                    <span class="esriElement">Coded values</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Name of codelist</span> SOE</dt>
+                    <dt>
+                      <span class="esriElement">Source</span> SOE</dt>
+                  </dl>
+                  <br />
+                  <dt>
+                    <span class="esriElement">Beginning date of values</span> 2014-01-21</dt>
+                  <dt>
+                    <span class="esriElement">Ending date of values</span> 2014-02-25</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Measurement frequency</span> 
+				not planned</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0ECAFA')" href="#ID0ECAFA">Hide Field SHAPE_LEN ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EBAFA')" href="#ID0EBAFA">
+                <dt>
+                  <span class="esriElement">Field</span> FID</dt> 
+		<span id="ID0EBAFAShow" class="hide">▼</span><span id="ID0EBAFAHide" class="show">►</span></a>
+              <div class="show" id="ID0EBAFA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> FID</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> OID</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 4</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="esriElement">Indexed</span> no</dt>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Internal feature number.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Sequential unique whole numbers that are automatically generated.</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Beginning date of values</span> 2014-01-21</dt>
+                  <dt>
+                    <span class="esriElement">Ending date of values</span> 2014-02-25</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Measurement frequency</span> 
+				not planned</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EBAFA')" href="#ID0EBAFA">Hide Field FID ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+              <a onclick="hideShow('ID0EAAFA')" href="#ID0EAAFA">
+                <dt>
+                  <span class="esriElement">Field</span> Shape</dt> 
+		<span id="ID0EAAFAShow" class="hide">▼</span><span id="ID0EAAFAHide" class="show">►</span></a>
+              <div class="show" id="ID0EAAFA">
+                <dl>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Alias</span> Shape</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Data type</span> Geometry</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Width</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Precision</span> 0</dt>
+                  <dt>
+                    <span class="sync">*</span> <span class="esriElement">Scale</span> 0</dt>
+                  <dt>
+                    <span class="esriElement">Indexed</span> no</dt>
+                  <dt>
+                    <span class="esriElement">Field description</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Feature geometry.</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description source</span>
+                  </dt>
+                  <dl>
+                    <dd>
+                      <pre class="wrap">Esri</pre>
+                    </dd>
+                  </dl>
+                  <dt>
+                    <span class="esriElement">Description of values</span> Coordinates defining the features.</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Beginning date of values</span> 2014-01-21</dt>
+                  <dt>
+                    <span class="esriElement">Ending date of values</span> 2014-02-25</dt>
+                  <br />
+                  <br />
+                  <dt>
+                    <span class="esriElement">Measurement frequency</span> 
+				as needed</dt>
+                  <br />
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EAAFA')" href="#ID0EAAFA">Hide Field Shape ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('ID0EAFA')" href="#ID0EAFA">Hide Details for object VoterPrecincts2014 ▲</a>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EFA')" href="#ID0EFA">Hide Fields ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0TALPA')" href="#ID0TALPA">Metadata Details 
+				<span id="ID0TALPAShow" class="hide">▼</span><span id="ID0TALPAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0TALPA">
+          <dt>
+            <span class="esriElement">Metadata language</span> English (UNITED STATES)
+			</dt>
+          <dt>
+            <span class="esriElement">Metadata character set</span> 
+			utf8 - 8 bit UCS Transfer Format</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">Scope of the data described by the metadata</span> 
+	    dataset</dt>
+          <dt>
+            <span class="esriElement">Scope name</span> 
+	    <span class="sync">*</span> dataset</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="sync">*</span> <span class="esriElement">Last update</span> 2014-02-25</dt>
+          <br />
+          <br />
+          <dt>
+            <span class="esriElement">ArcGIS metadata properties</span>
+          </dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Metadata format</span> ArcGIS 1.0</dt>
+            <dt>
+              <span class="esriElement">Metadata style</span> FGDC CSDGM Metadata</dt>
+            <dt>
+              <span class="esriElement">Standard or profile used to edit metadata</span> FGDC</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Created in ArcGIS for the item</span> 2014-02-11 12:48:43</dt>
+            <dt>
+              <span class="esriElement">Last modified in ArcGIS for the item</span> 2014-02-25 12:39:44</dt>
+            <br />
+            <br />
+            <dt>
+              <span class="esriElement">Automatic updates</span>
+            </dt>
+            <dl>
+              <dt>
+                <span class="esriElement">Have been performed</span> Yes</dt>
+              <dt>
+                <span class="esriElement">Last update</span> 2014-02-25 12:39:44</dt>
+            </dl>
+            <br />
+          </dl>
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0TALPA')" href="#ID0TALPA">Hide Metadata Details ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EAA')" href="#ID0EAA">Metadata Contacts 
+				<span id="ID0EAAShow" class="hide">▼</span><span id="ID0EAAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EAA">
+          <dt>
+            <span class="esriElement">Metadata contact</span> 
+</dt>
+          <dl>
+            <dt>
+              <span class="esriElement">Individual's name</span> Ed Solomon</dt>
+            <dt>
+              <span class="esriElement">Organization's name</span> SOE</dt>
+            <dt>
+              <span class="esriElement">Contact's role</span> 
+			originator</dt>
+            <br />
+            <br />
+            <dl>
+              <a onclick="hideShow('ID0EBAA')" href="#ID0EBAA">
+                <dt>
+                  <span class="esriElement">Contact information</span> 
+<span id="ID0EBAAShow" class="hide">▼</span><span id="ID0EBAAHide" class="show">►</span></dt>
+              </a>
+              <div class="show" id="ID0EBAA">
+                <dl>
+                  <dt>
+                    <span class="esriElement">Phone</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Voice</span> 9427121910</dt>
+                  </dl>
+                  <br />
+                  <dt>
+                    <span class="esriElement">Address</span> 
+</dt>
+                  <dl>
+                    <dt>
+                      <span class="esriElement">Type</span> postal</dt>
+                    <dt>
+                      <span class="esriElement">Delivery point</span> 115 S Andrews</dt>
+                    <dt>
+                      <span class="esriElement">City</span> FTL</dt>
+                    <dt>
+                      <span class="esriElement">Administrative area</span> FL</dt>
+                    <dt>
+                      <span class="esriElement">Postal code</span> 33060</dt>
+                  </dl>
+                  <br />
+                </dl>
+                <div class="backToTop">
+                  <a onclick="hideShow('ID0EBAA')" href="#ID0EBAA">Hide Contact information ▲</a>
+                </div>
+              </div>
+              <br />
+              <br />
+            </dl>
+          </dl>
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EAA')" href="#ID0EAA">Hide Metadata Contacts ▲</a>
+          </div>
+        </div>
+        <h2 class="iso">
+          <a onclick="hideShow('ID0EOA')" href="#ID0EOA">Thumbnail and Enclosures 
+			<span id="ID0EOAShow" class="hide">▼</span><span id="ID0EOAHide" class="show">►</span></a>
+        </h2>
+        <div class="show" id="ID0EOA">
+          <dt>
+            <span class="esriElement">Thumbnail</span> 
+</dt>
+          <dl />
+          <br />
+          <div class="backToTop" style="margin-left: 0;">
+            <a onclick="hideShow('ID0EOA')" href="#ID0EOA">Hide Thumbnail and Enclosures ▲</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="fgdc head">
+      <a href="#fgdcMetadata" onclick="hideShow('fgdcMetadata')" title="Content created in the 9.3.1 FGDC metadata editor, and managed with the USGS MP Metadata Translator tool. Upgrade to ArcGIS Metadata to manage this content here, in the Description tab.">FGDC Metadata (read-only) <span id="fgdcMetadataShow" class="show">▼</span><span id="fgdcMetadataHide" class="hide">►</span></a>
+    </h2>
+    <div class="hide" id="fgdcMetadata" xmlns="">
+      <div class="box fgdc">
+        <div>
+          <a name="TopFGDC" id="TopFGDC" />
+        </div>
+        <div>
+          <h2 class="fgdc">
+            <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Entities and Attributes 
+				<span id="/metadata/eainfo//text()[1]Show" class="hide">▼</span><span id="/metadata/eainfo//text()[1]Hide" class="show">►</span></a>
+          </h2>
+          <div class="show" id="/metadata/eainfo//text()[1]">
+            <a name="Entity and Attribute Information" id="Entity and Attribute Information" />
+            <dl>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="element">Detailed Description</span>
+                  </dt>
+                  <dd>
+                    <dl>
+                      <dt>
+                        <span class="element">Entity Type</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Entity Type Label</span> <span class="textOld">VoterPrecincts2014</span></dt>
+                          <dt>
+                            <span class="element">Entity Type Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">voting precincts</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Entity Type Definition Source</span> <span class="textOld">SOE</span></dt>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Precinct</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">SOE</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">SOE</span></dt>
+                          <dt>
+                            <span class="element">Beginning Date of Attribute Values</span> <span class="textOld">2014-01-21</span></dt>
+                          <dt>
+                            <span class="element">Ending Date of Attribute Values</span> <span class="textOld">2014-02-25</span></dt>
+                          <dt>
+                            <span class="element">Attribute Measurement Frequency</span>
+                          </dt>
+                          <dl>
+                            <dd>
+                              <pre class="wrap">
+                                <span class="textOld">011</span>
+                              </pre>
+                            </dd>
+                          </dl>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">SHAPE_AREA</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Area of feature in internal units squared.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Positive real numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Beginning Date of Attribute Values</span> <span class="textOld">2014-01-21</span></dt>
+                          <dt>
+                            <span class="element">Ending Date of Attribute Values</span> <span class="textOld">2014-02-25</span></dt>
+                          <dt>
+                            <span class="element">Attribute Value Accuracy Information</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Attribute Value Accuracy</span> <span class="textOld">good</span></dt>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Measurement Frequency</span>
+                          </dt>
+                          <dl>
+                            <dd>
+                              <pre class="wrap">
+                                <span class="textOld">011</span>
+                              </pre>
+                            </dd>
+                          </dl>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">SHAPE_LEN</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">SOE</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">SOE</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Range Domain</span>
+                              </dt>
+                              <dd>
+                                <dl>
+                                  <dt>
+                                    <span class="element">Range Domain Minimum</span> <span class="textOld">50</span></dt>
+                                  <dt>
+                                    <span class="element">Range Domain Maximum</span> <span class="textOld">100</span></dt>
+                                </dl>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Codeset Domain</span>
+                              </dt>
+                              <dd>
+                                <dl>
+                                  <dt>
+                                    <span class="element">Codeset Name</span> <span class="textOld">SOE</span></dt>
+                                  <dt>
+                                    <span class="element">Codeset Source</span> <span class="textOld">SOE</span></dt>
+                                </dl>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Beginning Date of Attribute Values</span> <span class="textOld">2014-01-21</span></dt>
+                          <dt>
+                            <span class="element">Ending Date of Attribute Values</span> <span class="textOld">2014-02-25</span></dt>
+                          <dt>
+                            <span class="element">Attribute Measurement Frequency</span>
+                          </dt>
+                          <dl>
+                            <dd>
+                              <pre class="wrap">
+                                <span class="textOld">011</span>
+                              </pre>
+                            </dd>
+                          </dl>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">FID</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Internal feature number.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Sequential unique whole numbers that are automatically generated.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Beginning Date of Attribute Values</span> <span class="textOld">2014-01-21</span></dt>
+                          <dt>
+                            <span class="element">Ending Date of Attribute Values</span> <span class="textOld">2014-02-25</span></dt>
+                          <dt>
+                            <span class="element">Attribute Measurement Frequency</span>
+                          </dt>
+                          <dl>
+                            <dd>
+                              <pre class="wrap">
+                                <span class="textOld">011</span>
+                              </pre>
+                            </dd>
+                          </dl>
+                        </dl>
+                      </dd>
+                      <br />
+                      <dt>
+                        <span class="element">Attribute</span>
+                      </dt>
+                      <dd>
+                        <dl>
+                          <dt>
+                            <span class="element">Attribute Label</span> <span class="textOld">Shape</span></dt>
+                          <dt>
+                            <span class="element">Attribute Definition</span>
+                          </dt>
+                          <dd>
+                            <span class="textOld">Feature geometry.</span>
+                          </dd>
+                          <dt>
+                            <span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt>
+                          <dt>
+                            <span class="element">Attribute Domain Values</span>
+                          </dt>
+                          <dd>
+                            <dl>
+                              <dt>
+                                <span class="element">Unrepresentable Domain</span>
+                              </dt>
+                              <dd>
+                                <span class="textOld">Coordinates defining the features.</span>
+                              </dd>
+                            </dl>
+                          </dd>
+                          <dt>
+                            <span class="element">Beginning Date of Attribute Values</span> <span class="textOld">2014-01-21</span></dt>
+                          <dt>
+                            <span class="element">Ending Date of Attribute Values</span> <span class="textOld">2014-02-25</span></dt>
+                          <dt>
+                            <span class="element">Attribute Measurement Frequency</span>
+                          </dt>
+                          <dl>
+                            <dd>
+                              <pre class="wrap">
+                                <span class="textOld">009</span>
+                              </pre>
+                            </dd>
+                          </dl>
+                        </dl>
+                      </dd>
+                      <br />
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+            <div class="backToTop">
+              <a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Hide Entities and Attributes ▲</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

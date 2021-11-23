@@ -1,0 +1,63 @@
+MAN	106	120810001053029	A	Included Part 1 of 1 Beginning at the intersection of 44th Ave E and Cortez Rd W 44th Ave E Cortez Rd W 44th Ave E Cortez Rd W Ending at the intersection of Cortez Rd W and 44th Ave E
+MAN	59	120810001053029	B	Included Part 1 of 1 Beginning at the intersection of 1st St and 41st Ave E 1st St Cortez Rd W 1st St 41st Ave E Ending at the intersection of 41st Ave E and 1st St
+MAN	39	120810004081034	A	Portion of the block north of parcel 5145700059
+MAN	127	120810004081034	B	"Portion of the block that includes parcels 5145700059, 5145700208, and 5145700257"
+MAN	28	120810007051003	A	Portion of the block north of the split between parcels 1176500005 and 1176500054
+MAN	128	120810007051003	B	Portion of the block south of the split between parcels 1176500005 and 1176500054
+MAN	28	120810007051020	A	Portion of the block north of the split between parcels 1179301009 and 1179310059
+MAN	128	120810007051020	B	Portion of the block south of the split between parcels 1179301009 and 1179310059
+MAN	128	120810007051030	A	Portion of the block south of parcel 1176900007
+MAN	28	120810007051030	B	Portion of the block that includes parcel 1176900007
+MAN	128	120810007052009	A	Portion of the block that excludes parcels 1384510101 and 1384520050
+MAN	63	120810007052009	B	Portion of the block that includes parcels 1384510101 and 1384520050
+MAN	126	120810008092002	A	Portion of the block east of the eastern boundary of parcel 2052701709
+MAN	96	120810008092002	B	Portion of the block west of the eastern boundary of parcel 2052701709
+MAN	89	120810009013015	A	Portion of the block south of the northern boundary of parcel 666010006
+MAN	123	120810009013015	B	Portion of the block north of the northern boundary of parcel 666010006
+MAN	87	120810010002000	A	"Portion of the block that includes parcels 6498900106, 6502100008, 6502600007, 6504100006, 6503600006, and 6500605008"
+MAN	86	120810010002000	B	"Portion of the block that excludes parcels 6498900106, 6502100008, 6502600007, 6504100006, 6503600006, and 6500605008"
+MAN	50	120810011081011	A	Portion of the block west of the split between parcels 7622800006 and 7622700107
+MAN	51	120810011081011	B	Portion of the block east of the split between parcels 7622800006 and 7622700107
+MAN	50	120810011082022	A	"Portion of the block that excludes parcels 7577700109, 7577710051, 7577710002, 7577800001, 7578910007, 7578900008, 7578800000, 7578700002, 7578600004, 7578500006, 7578300001, 7578200003, 7578100005, 7578000007, and 7577900009"
+MAN	49	120810011082022	B	"Portion of the block that includes parcels 7577700109, 7577710051, 7577710002, 7577800001, 7578910007, 7578900008, 7578800000, 7578700002, 7578600004, 7578500006, 7578300001, 7578200003, 7578100005, 7578000007, and 7577900009"
+MAN	22	120810012031006	A	"Portion of the block that includes parcels 3017700059, 3017700505, 3017800206, 3017800156, 3018700009, 3018800007, and 3018900005"
+MAN	114	120810012031006	B	"Portion of the block that excludes parcels 3017700059, 3017700505, 3017800206, 3017800156, 3018700009, 3018800007, and 3018900005"
+MAN	21	120810012042000	A	Portion of the block that excludes parcels 3837300056 and 3837300509
+MAN	22	120810012042000	B	Portion of the block that includes parcels 3837300056 and 3837300509
+MAN	6	120810014032000	A	"Portion of the block north of the southern boundary of parcels 2800200053, 2810402009, and 2800000107"
+MAN	112	120810014032000	B	"Portion of the block south of the southern boundary of parcels 2800200053, 2810402009, and 2800000107"
+MAN	92	120810018002020	A	"Portion of the block that includes parcels 7184200009, 7184100001, 7184000003, 7183900054, 7183900109, 7183900159, and 7183900209"
+MAN	93	120810018002020	B	"Portion of the block that excludes parcels 7184200009, 7184100001, 7184000003, 7183900054, 7183900109, 7183900159, and 7183900209"
+MAN	92	120810018002021	A	"Portion of the block that includes parcels 7239000008, 7238900000, 7238800002, 7238700004, 7238600105, 7238600055, and 7238500008"
+MAN	93	120810018002021	B	"Portion of the block that excludes parcels 7239000008, 7238900000, 7238800002, 7238700004, 7238600105, 7238600055, and 7238500008"
+MAN	92	120810018004049	A	"Portion of the block that excludes parcels 7240500004, 7240400007, 7240200001, 7240100003, 7240000005, and 7239800001"
+MAN	93	120810018004049	B	"Portion of the block that includes parcels 7240500004, 7240400007, 7240200001, 7240100003, 7240000005, and 7239800001"
+MAN	11	120810019041043	A	"Portion of the block east of the split along the eastern boundary of Township 34 South, Range 17 East, Section 24"
+MAN	19	120810019041043	B	"Portion of the block west of the split along the eastern boundary of Township 34 South, Range 17 East, Section 24"
+MAN	102	120810019081007	A	Portion of the block southeast of the split along the eastern and northern boundaries of parcel 744310004 and the northern boundary of parcel 825900103
+MAN	13	120810019081007	B	Portion of the block norht and west of the split along the eastern and northern boundaries of parcel 744310004 and the northern boundary of parcel 825900103
+MAN	103	120810019082002	A	"Portion of the block east of the split along the western boundary of parcels 742515009, 742515859, and 742515409"
+MAN	20	120810019082002	B	"Portion of the block west of the split along the western boundary of parcels 742515009, 742515859, and 742515409"
+MAN	103	120810019082016	A	Portion of the block east of the split along the western boundary of parcel 742300007
+MAN	20	120810019082016	B	Portion of the block west of the split along the western boundary of parcel 742300007
+MAN	20	120810019082017	A	Portion of the block west of the split along the western boundary of parcel 742515309
+MAN	103	120810019082017	B	Portion of the block east of the split along the western boundary of parcel 742515309
+MAN	13	120810019084008	A	Portion of the block that includes parcels 830400073 and 830410059
+MAN	14	120810019084008	B	Portion of the block that excludes parcels 830400073 and 830410059
+MAN	103	120810019111027	A	"Portion of the block west of the split along the eastern boundary of Township 33 South, Range 18 East, Section 36"
+MAN	3	120810019111027	B	"Portion of the block east of the split along the eastern boundary of Township 33 South, Range 18 East, Section 36"
+MAN	109	120810019121068	A	Portion of the block east of Buffalo Rd
+MAN	2	120810019121068	B	Portion of the block west of Buffalo Rd
+MAN	109	120810019122000	A	"Portion of the block that excludes parcels 649000007, 649000059, and 651100000"
+MAN	2	120810019122000	B	"Portion of the block that includes parcels 649000007, 649000059, and 651100000"
+MAN	2	120810019122014	A	Portion of the block south of the canal
+MAN	109	120810019122014	B	Portion of the block north of the canal
+MAN	75	120810020071013	A	Portion of the block that excludes parcel 576101009
+MAN	117	120810020071013	B	Portion of the block that includes parcel 576101009
+MAN	105	120810020111013	A	Portion of the block west of the split along the western boundary of parcel 11173000002
+MAN	116	120810020111013	B	Portion of the block east of the split along the western boundary of parcel 11173000002
+MAN	139	120810020151012	A	"Portion of the block south of the split along the northern boundary of Township 35 South, Range 19 East, Section 27"
+MAN	75	120810020151012	B	"Portion of the block north of the split along the northern boundary of Township 35 South, Range 19 East, Section 27 and west of the Braden River"
+MAN	75	120810020151012	C	"Portion of the block north of the split along the northern boundary of Township 35 South, Range 19 East, Section 27 and east of the Braden River"
+MAN	75	120810020151026	A	"Portion of the block north of the split along the northern boundary of Township 35 South, Range 19 East, Section 27"
+MAN	139	120810020151026	B	"Portion of the block south of the split along the northern boundary of Township 35 South, Range 19 East, Section 27"
